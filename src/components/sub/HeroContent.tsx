@@ -19,7 +19,7 @@ const HeroContent = () => {
                     className='Welcome-box py-[12px] px-[12px] border border-[#7042f88b] opacity-[0.9]'
                 >
                     <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
-                    <h1 className='Welcome-text text-[13px]'>FullStack Developer Portfolio</h1>
+                    <h1 className='Welcome-text text-[16px]'>About Me</h1>
                 </motion.div>
                 <motion.div
                     variants={slideInFromLeft(0.5)}
@@ -47,18 +47,16 @@ const HeroContent = () => {
 
             <motion.div
                 variants={slideInFromRight(0.8)}
-                className='w-full h-full justify-center items-center hidden sm:flex'
+                className="w-full h-full flex justify-center items-center"
             >
                 <Image
-                    src="/mainIconsDark.png"
-                    alt='work icons'
-                    width={650}
+                    src="/mainIconsdark.svg"
+                    alt="work icons"
                     height={650}
-                    priority
+                    width={650}
                 />
             </motion.div>
         </motion.div>
-
     )
 }
 
