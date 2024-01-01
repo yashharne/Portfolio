@@ -138,9 +138,10 @@ export const BackendSkills = [
   },
   {
     name: "Firebase",
-    src: "/firebase.png",
+    src: "/firebase.svg",
     width: 55,
     height: 55,
+    scale: 1.5,
   },
   {
     name: "MySQL",
