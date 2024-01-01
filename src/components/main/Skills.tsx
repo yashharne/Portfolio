@@ -7,7 +7,7 @@ const Skills = () => {
     return (
         <section
             id='skills'
-            className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-30 transform scale-90 z-[20]'
+            className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-40 transform scale-90 z-[20]'
         >
             <SkillText />
             <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center z-[30]'>
