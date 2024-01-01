@@ -85,7 +85,7 @@ export const FrontendSkills = [
     height: 80,
   },
   {
-    name: "NextJS",
+    name: "Next JS",
     src: "/next.png",
     width: 80,
     height: 80,
@@ -226,5 +226,31 @@ export const OtherSkills = [
     width: 80,
     height: 80,
     scale: 1.25,
+  },
+];
+
+export const ProjectData = [
+  {
+    name: "iConclave 23 Website",
+    src: "/iconclaveSS.png",
+    description:
+      "This is the official website for the annual techno-cultural fest of IIIT Pune, iConclave 23.",
+    link: "https://iconclave23.netlify.app/",
+    github: "https://github.com/yashharne/iConclave23",
+  },
+  {
+    name: "OptiRoute",
+    src: "/optirouteSS.png",
+    description:
+      "A mobile application designed to streamline your shopping experience by determining the most cost-effective route for purchasing items.",
+    github: "https://github.com/yashharne/OptiRoute",
+  },
+  {
+    name: "WeatherSnap",
+    src: "/weathersnapSS.png",
+    description:
+      "A real-time weather forecasting web application powered by the OpenWeatherMap API. It provides users with current weather data and forecasts.",
+    link: "https://appweathersnap.netlify.app/",
+    github: "https://github.com/yashharne/WeatherSnap",
   },
 ];
