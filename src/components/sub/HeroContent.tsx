@@ -34,15 +34,15 @@ const HeroContent = () => {
                 <motion.p
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px]'>
-                    I&apos;m a Fullstack Developer with a passion for creating beautiful and functional websites.
+                    I&apos;m a Fullstack Web Developer with a passion for creating functional and user-friendly websites.
                     Check out my skills and projects.
                 </motion.p>
-                <motion.a
+                {/* <motion.a
                     variants={slideInFromLeft(1.1)}
                     className='py-2 button-primary text-center text-white cursor pointer rounded-lg max-w-[200px]'
                 >
                     Learn More
-                </motion.a>
+                </motion.a> */}
             </div>
 
             <motion.div

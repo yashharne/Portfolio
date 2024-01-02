@@ -114,6 +114,13 @@ export const FrontendSkills = [
     width: 80,
     height: 80,
   },
+  {
+    name: "Framer Motion",
+    src: "/framer.png",
+    width: 80,
+    height: 80,
+    scale: 0.9,
+  },
 ];
 
 export const BackendSkills = [
@@ -154,6 +161,13 @@ export const BackendSkills = [
     src: "/prisma.webp",
     width: 70,
     height: 70,
+  },
+  {
+    name: "Supabase",
+    src: "/supabase.svg",
+    width: 55,
+    height: 55,
+    scale: 1.25,
   },
 ];
 
@@ -227,6 +241,13 @@ export const OtherSkills = [
     width: 80,
     height: 80,
     scale: 1.25,
+  },
+  {
+    name: "Vite",
+    src: "/vite.svg",
+    width: 80,
+    height: 80,
+    scale: 0.9,
   },
 ];
 
