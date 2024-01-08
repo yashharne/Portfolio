@@ -169,6 +169,13 @@ export const BackendSkills = [
     height: 55,
     scale: 1.25,
   },
+  {
+    name: "Google Cloud Platform",
+    src: "/google-cloud.svg",
+    width: 80,
+    height: 80,
+    scale: 1.1,
+  },
 ];
 
 export const OtherSkills = [
@@ -222,11 +229,11 @@ export const OtherSkills = [
     scale: 0.75,
   },
   {
-    name: "npm",
-    src: "/npm.svg",
+    name: "ngrok",
+    src: "/ngrok.png",
     width: 80,
     height: 80,
-    scale: 1.25,
+    scale: 1,
   },
   {
     name: "Vercel",
@@ -240,7 +247,7 @@ export const OtherSkills = [
     src: "/netlify.svg",
     width: 80,
     height: 80,
-    scale: 1.25,
+    scale: 1.35,
   },
   {
     name: "Vite",
@@ -249,9 +256,23 @@ export const OtherSkills = [
     height: 80,
     scale: 0.9,
   },
+  {
+    name: "npm",
+    src: "/npm.svg",
+    width: 80,
+    height: 80,
+    scale: 1.25,
+  },
 ];
 
 export const ProjectData = [
+  {
+    name: "ShopBuddy",
+    src: "/shopbuddySS.png",
+    description:
+      "A robust full-stack E-Commerce web application, featuring essential features for an efficient online shopping experience.",
+    github: "https://github.com/yashharne/ShopBuddy",
+  },
   {
     name: "iConclave 23 Website",
     src: "/iconclaveSS.png",

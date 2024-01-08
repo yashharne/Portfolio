@@ -14,12 +14,12 @@ const Navbar = () => {
                         height={115}
                         className='cursor-pointer hover:animate-slowspin'
                     />
-                    <span className='font-bold petit text-2xl hidden md:block text-transparent bg-clip-text bg-gradient-to-r from-gray-300 to-[#c579f9]'>
+                    <span className='font-bold petit text-2xl hidden lg:block text-transparent bg-clip-text bg-gradient-to-r from-gray-300 to-[#c579f9]'>
                         Yash Harne
                     </span>
                 </a>
 
-                <div className='w-[600px] h-full flex flex-row items-center justify-between ml-4'>
+                <div className='w-[600px] h-full flex flex-row items-center justify-between'>
                     <div className='flex neonBreathing items-center w-full h-auto justify-between border-[#7042f861] bg-[#0300145e] px-[20px] py-[10px] rounded-full text-gray-200'>
                         <a href='#about-me' className='cursor-pointer'>
                             About Me
@@ -33,7 +33,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-row gap-5'>
+                <div className='flex-row gap-5 hidden md:flex'>
                     {
                         Socials.map((social) => (
                             <a

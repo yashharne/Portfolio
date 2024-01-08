@@ -30,19 +30,19 @@ const Contact = () => {
                 </motion.div>
             </div>
             <form onSubmit={handleSubmit} className='flex flex-col items-center justify-center gap-4 w-9/12'>
-                <div className='flex w-full gap-8'>
+                <div className='flex flex-col sm:flex-row w-full gap-4 sm:gap-8'>
                     <input
                         type="text"
                         name="name"
                         placeholder='Full Name'
                         required
-                        className='border border-[#7042f88b] bg-transparent p-2 text-gray-300 rounded-xl w-1/2'
+                        className='border border-[#7042f88b] bg-transparent p-2 text-gray-300 rounded-xl sm:w-1/2'
                     />
                     <input
                         type="email"
                         name='email'
                         placeholder='Email'
-                        className='border border-[#7042f88b] bg-transparent p-2 text-gray-300 rounded-xl w-1/2'
+                        className='border border-[#7042f88b] bg-transparent p-2 text-gray-300 rounded-xl sm:w-1/2'
                     />
                 </div>
 

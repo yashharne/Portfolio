@@ -14,13 +14,13 @@ const ProjectCard = (
 ) => {
     return (
         <div className='relative overflow-hidden rounded-lg shawddow-lg border border-[#2A0E61] transition-transform duration-300 hover:scale-105'>
-            <div>
+            <div className='group'>
                 <Image
                     src={src}
                     alt={title}
                     width={1000}
                     height={1000}
-                    className='w-full object-contain opacity-50 hover:opacity-80'
+                    className='w-full object-contain opacity-40 group-hover:opacity-80'
                 />
                 <div className='relative p-4'>
                     <div className='flex justify-between'>

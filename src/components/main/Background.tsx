@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import React, { Suspense, useRef, useState } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
-import { Points, PointMaterial, Preload } from "@react-three/drei"
+import React, { useState, useRef, Suspense } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
+import { Points, PointMaterial, Preload } from "@react-three/drei";
 // @ts-ignore
-import * as random from "maath/random/dist/maath-random.esm"
+import * as random from "maath/random/dist/maath-random.esm";
 
 const StarBackground = (props: any) => {
     const ref: any = useRef();
@@ -15,7 +15,8 @@ const StarBackground = (props: any) => {
     useFrame((state, delta) => {
         ref.current.rotation.x -= delta / 10;
         ref.current.rotation.y -= delta / 15;
-    });
+    })
+
 
     return (
         <group rotation={[0, 0, Math.PI / 4]}>
@@ -28,26 +29,24 @@ const StarBackground = (props: any) => {
             >
                 <PointMaterial
                     transparent
-                    color="white"
-                    size={0.0025}
-                    sizeattenutation={true}
-                    dethwrite={false}
+                    color="$fff"
+                    size={0.002}
+                    sizeAttenuation={true}
+                    depthWrite={false}
                 />
             </Points>
         </group>
     )
-}
+};
 
-const StarsCanvas = () => {
-    return (
-        <div className='w-full h-auto fixed inset-0 z-[20]'>
-            <Canvas camera={{ position: [0, 0, 1] }}>
-                <Suspense fallback={null}>
-                    <StarBackground />
-                </Suspense>
-            </Canvas>
-        </div>
-    )
-}
+const StarsCanvas = () => (
+    <div className="w-full h-auto fixed inset-0 z-[20]">
+        <Canvas camera={{ position: [0, 0, 1] }}>
+            <Suspense fallback={null}>
+                <StarBackground />
+            </Suspense>
+        </Canvas>
+    </div>
+)
 
-export default StarsCanvas
+export default StarsCanvas;
