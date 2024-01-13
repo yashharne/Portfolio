@@ -17,7 +17,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-20 pt-10 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-10 sm:px-20 mt-20 pt-10 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -29,7 +29,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-2 sm:gap-6 mt-6 text-4xl sm:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           Hello, I am
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-300">
@@ -38,7 +38,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-md sm:text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a Fullstack Web Developer with a passion for creating
           functional and user-friendly websites. Check out my skills and
@@ -72,3 +72,5 @@ const HeroContent = () => {
 };
 
 export default HeroContent;
+
+

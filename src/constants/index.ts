@@ -32,7 +32,7 @@ export const Socials = [
   {
     name: "Twitter",
     src: "/twitterx.svg",
-    link: "https://twitter.com/yash_harne_007",
+    link: "https://twitter.com/infiniite_void",
   },
 ];
 
@@ -54,8 +54,9 @@ export const FrontendSkills = [
   {
     name: "JavaScript",
     src: "/js.png",
-    width: 65,
-    height: 65,
+    width: 80,
+    height: 80,
+    scale: 0.85,
   },
   {
     name: "TypeScript",
@@ -139,35 +140,37 @@ export const BackendSkills = [
   },
   {
     name: "MongoDB",
-    src: "/mongodb.png",
-    width: 40,
+    src: "/mongodb.svg",
+    width: 80,
     height: 40,
+    scale: 1.2,
   },
   {
     name: "Firebase",
     src: "/firebase.svg",
-    width: 55,
-    height: 55,
-    scale: 1.5,
+    width: 80,
+    height: 80,
+    scale: 1,
   },
   {
     name: "MySQL",
     src: "/mysql.png",
-    width: 70,
-    height: 70,
+    width: 80,
+    height: 80,
   },
   {
     name: "Prisma",
     src: "/prisma.webp",
-    width: 70,
-    height: 70,
+    width: 80,
+    height: 80,
+    scale: 0.8,
   },
   {
     name: "Supabase",
     src: "/supabase.svg",
-    width: 55,
-    height: 55,
-    scale: 1.25,
+    width: 80,
+    height: 80,
+    scale: 0.9,
   },
   {
     name: "Google Cloud Platform",
@@ -243,7 +246,7 @@ export const OtherSkills = [
     scale: 0.9,
   },
   {
-    name: "Neltify",
+    name: "Netlify",
     src: "/netlify.svg",
     width: 80,
     height: 80,
@@ -274,19 +277,19 @@ export const ProjectData = [
     github: "https://github.com/yashharne/ShopBuddy",
   },
   {
+    name: "OptiRoute",
+    src: "/optirouteSS.png",
+    description:
+      "A mobile application designed to streamline your shopping experience by determining the most cost-effective route for purchasing items.",
+    github: "https://github.com/yashharne/OptiRoute",
+  },
+  {
     name: "iConclave 23 Website",
     src: "/iconclaveSS.png",
     description:
       "This is the official website for the annual techno-cultural fest of IIIT Pune, iConclave 23.",
     link: "https://iconclave23.netlify.app/",
     github: "https://github.com/yashharne/iConclave23",
-  },
-  {
-    name: "OptiRoute",
-    src: "/optirouteSS.png",
-    description:
-      "A mobile application designed to streamline your shopping experience by determining the most cost-effective route for purchasing items.",
-    github: "https://github.com/yashharne/OptiRoute",
   },
   {
     name: "WeatherSnap",

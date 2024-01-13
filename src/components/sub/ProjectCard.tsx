@@ -24,7 +24,7 @@ const ProjectCard = (
                 />
                 <div className='relative p-4'>
                     <div className='flex justify-between'>
-                        <h1 className='text-2xl font-semibold text-white'>{title}</h1>
+                        <h1 className='text-xl sm:text-2xl font-semibold text-white'>{title}</h1>
                         <div className='flex justify-center items-center gap-2'>
                             {
                                 link && (
@@ -62,7 +62,7 @@ const ProjectCard = (
                         </div>
                     </div>
 
-                    <p className='mt-2 text-gray-300'>{description}</p>
+                    <p className='text-sm sm:text-base mt-2 text-gray-300'>{description}</p>
                 </div>
 
             </div>

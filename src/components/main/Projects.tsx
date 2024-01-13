@@ -9,7 +9,7 @@ import { ProjectData } from '@/constants'
 
 const Projects = () => {
     return (
-        <div id='projects' className='flex flex-col items-center justify-center py-20 z-[20]'>
+        <div id='projects' className='flex flex-col items-center justify-center sm:py-20 z-[20]'>
             <motion.div
                 variants={slideInFromTop}
                 className='Welcome-box py-[12px] px-[12px] border border-[#7042f88b] opacity-[0.9]'
@@ -26,7 +26,7 @@ const Projects = () => {
             </motion.div>
 
             {/* <div className='w-full h-full flex flex-col md:flex-row gap-10 px-10'> */}
-            <div className='w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10'>
+            <div className='w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10 px-6 sm:px-10'>
                 {
                     ProjectData.map((project, index) => (
                         <ProjectCard
