@@ -5,11 +5,15 @@ import SkillsDataProvider from '../sub/SkillsDataProvider'
 import { BackendSkills, FrontendSkills, OtherSkills } from '@/constants'
 import SkillText from '../sub/SkillText'
 
-const isMobileDevice = () => {
-    return window.innerWidth <= 768;
-};
-
 const Skills = () => {
+    var width = 1000;
+
+    if (typeof globalThis?.window?.innerWidth !== 'undefined') {
+        width = globalThis.window.innerWidth;
+    }
+
+    const isMobileDevice = width <= 768;
+
     return (
         <section
             id='skills'
@@ -24,8 +28,8 @@ const Skills = () => {
                             src={skill.src}
                             name={skill.name}
                             index={index}
-                            width={isMobileDevice() ? skill.width * 0.8 : skill.width}
-                            height={isMobileDevice() ? skill.height * 0.8 : skill.height}
+                            width={isMobileDevice ? skill.width * 0.8 : skill.width}
+                            height={isMobileDevice ? skill.height * 0.8 : skill.height}
                             scale={skill.scale || 1}
                         />
                     ))
@@ -40,8 +44,8 @@ const Skills = () => {
                             src={skill.src}
                             name={skill.name}
                             index={index}
-                            width={isMobileDevice() ? skill.width * 0.8 : skill.width}
-                            height={isMobileDevice() ? skill.height * 0.8 : skill.height}
+                            width={isMobileDevice ? skill.width * 0.8 : skill.width}
+                            height={isMobileDevice ? skill.height * 0.8 : skill.height}
                             scale={skill.scale || 1}
                         />
                     ))
@@ -56,8 +60,8 @@ const Skills = () => {
                             src={skill.src}
                             name={skill.name}
                             index={index}
-                            width={isMobileDevice() ? skill.width * 0.8 : skill.width}
-                            height={isMobileDevice() ? skill.height * 0.8 : skill.height}
+                            width={isMobileDevice ? skill.width * 0.8 : skill.width}
+                            height={isMobileDevice ? skill.height * 0.8 : skill.height}
                             scale={skill.scale || 1}
                         />
                     ))
