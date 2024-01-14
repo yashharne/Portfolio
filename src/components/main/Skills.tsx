@@ -12,7 +12,8 @@ const Skills = () => {
         width = globalThis.window.innerWidth;
     }
 
-    const isMobileDevice = width <= 768;
+    const isMobileDevice = width <= 980;
+    const isMobilePhone = width <= 425;
 
     return (
         <section
@@ -20,7 +21,7 @@ const Skills = () => {
             className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-10 sm:py-40 transform scale-90 z-[20]'
         >
             <SkillText />
-            <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center z-[30]'>
+            <div className='flex flex-row justify-around flex-wrap mt-10 sm:mt-4 gap-5 items-center z-[30]'>
                 {
                     FrontendSkills.map((skill, index) => (
                         <SkillsDataProvider
@@ -28,15 +29,15 @@ const Skills = () => {
                             src={skill.src}
                             name={skill.name}
                             index={index}
-                            width={isMobileDevice ? skill.width * 0.8 : skill.width}
-                            height={isMobileDevice ? skill.height * 0.8 : skill.height}
+                            width={isMobileDevice ? (isMobilePhone ? skill.width * 0.6 : skill.width * 0.8) : skill.width}
+                            height={isMobileDevice ? (isMobilePhone ? skill.height * 0.6 : skill.height * 0.8) : skill.height}
                             scale={skill.scale || 1}
                         />
                     ))
                 }
             </div>
 
-            <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center z-[30]'>
+            <div className='flex flex-row justify-around flex-wrap mt-10 sm:mt-4 gap-5 items-center z-[30]'>
                 {
                     OtherSkills.map((skill, index) => (
                         <SkillsDataProvider
@@ -44,15 +45,15 @@ const Skills = () => {
                             src={skill.src}
                             name={skill.name}
                             index={index}
-                            width={isMobileDevice ? skill.width * 0.8 : skill.width}
-                            height={isMobileDevice ? skill.height * 0.8 : skill.height}
+                            width={isMobileDevice ? (isMobilePhone ? skill.width * 0.6 : skill.width * 0.8) : skill.width}
+                            height={isMobileDevice ? (isMobilePhone ? skill.height * 0.6 : skill.height * 0.8) : skill.height}
                             scale={skill.scale || 1}
                         />
                     ))
                 }
             </div>
 
-            <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center z-[30]'>
+            <div className='flex flex-row justify-around flex-wrap mt-10 sm:mt-4 gap-5 items-center z-[30]'>
                 {
                     BackendSkills.map((skill, index) => (
                         <SkillsDataProvider
@@ -60,8 +61,8 @@ const Skills = () => {
                             src={skill.src}
                             name={skill.name}
                             index={index}
-                            width={isMobileDevice ? skill.width * 0.8 : skill.width}
-                            height={isMobileDevice ? skill.height * 0.8 : skill.height}
+                            width={isMobileDevice ? (isMobilePhone ? skill.width * 0.6 : skill.width * 0.8) : skill.width}
+                            height={isMobileDevice ? (isMobilePhone ? skill.height * 0.6 : skill.height * 0.8) : skill.height}
                             scale={skill.scale || 1}
                         />
                     ))

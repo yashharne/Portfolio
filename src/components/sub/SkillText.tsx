@@ -10,10 +10,10 @@ const SkillText = () => {
         <div className='w-full h-auto flex flex-col items-center justify-center'>
             <motion.div
                 variants={slideInFromTop}
-                className='Welcome-box py-[12px] px-[12px] border border-[#7042f88b] opacity-[0.9]'
+                className="Welcome-box py-[10px] px-[10px] sm:py-[12px] sm:px-[12px] border border-[#7042f88b] opacity-[0.9]"
             >
-                <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
-                <h1 className='Welcome-text text-[16px]'>SKILLS</h1>
+                <SparklesIcon className="text-[#b49bff] mr-[6px] sm:mr-[10px] h-4 w-4 sm:h-5 sm:w-5" />
+                <h1 className="Welcome-text text-[14px] sm:text-[16px]">SKILLS</h1>
             </motion.div>
 
             <motion.div

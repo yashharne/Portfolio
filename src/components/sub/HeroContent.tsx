@@ -22,10 +22,10 @@ const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[12px] px-[12px] border border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box py-[10px] px-[10px] sm:py-[12px] sm:px-[12px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[16px]">About Me</h1>
+          <SparklesIcon className="text-[#b49bff] mr-[6px] sm:mr-[10px] h-4 w-4 sm:h-5 sm:w-5" />
+          <h1 className="Welcome-text text-[14px] sm:text-[16px]">About me</h1>
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
@@ -47,9 +47,9 @@ const HeroContent = () => {
         <a href={resumeLink} target="_blank" rel="noopener noreferrer">
           <motion.div
             variants={slideInFromLeft(1.1)}
-            className="py-2 button-primary text-center flex items-center justify-center gap-4 text-white cursor pointer rounded-lg max-w-[200px]"
+            className="py-2 w-36 sm:w-48 text-sm sm:text-lg button-primary text-center flex items-center justify-center gap-1 sm:gap-2 text-white cursor pointer rounded-lg max-w-[200px]"
           >
-            <Image src={"/link.svg"} alt="link" width={24} height={24} />
+            <Image src={"/link.svg"} alt="link" width={24} height={24} className="scale-75 sm:scale-90" />
             My Resume
           </motion.div>
         </a>
