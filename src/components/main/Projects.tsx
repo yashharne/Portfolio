@@ -9,7 +9,7 @@ import { ProjectData } from '@/constants'
 
 const Projects = () => {
     return (
-        <div id='projects' className='flex flex-col items-center justify-center sm:py-20 z-[20]'>
+        <div id='projects' className='flex flex-col items-center justify-center pt-20 sm:py-20 z-[20]'>
             <motion.div
                 variants={slideInFromTop}
                 className="Welcome-box py-[10px] px-[10px] sm:py-[12px] sm:px-[12px] border border-[#7042f88b] opacity-[0.9]"

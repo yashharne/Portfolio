@@ -5,6 +5,31 @@ export const Socials = [
     link: "https://www.linkedin.com/in/yash-harne/",
   },
   {
+    name: "Github",
+    src: "/github.png",
+    link: "https://github.com/yashharne",
+  },
+  {
+    name: "Instagram",
+    src: "/instagram.svg",
+    link: "https://www.instagram.com/yashhharne/",
+  },
+  {
+    name: "Twitter",
+    src: "/twitterx.svg",
+    link: "https://twitter.com/infiniite_void",
+  },
+];
+
+export const Email = "yashharne127@gmail.com";
+
+export const Nav = [
+  {
+    name: "Linkedin",
+    src: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/yash-harne/",
+  },
+  {
     name: "Leetcode",
     src: "/leetcode.png",
     link: "https://leetcode.com/infiniite_void/",
@@ -284,7 +309,7 @@ export const ProjectData = [
     github: "https://github.com/yashharne/OptiRoute",
   },
   {
-    name: "iConclave 23 Website",
+    name: "iConclave Website",
     src: "/iconclaveSS.png",
     description:
       "This is the official website for the annual techno-cultural fest of IIIT Pune, iConclave 23.",
