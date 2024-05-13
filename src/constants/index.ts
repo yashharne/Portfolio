@@ -204,6 +204,13 @@ export const BackendSkills = [
     height: 80,
     scale: 1.1,
   },
+  {
+    name: "Docker",
+    src: "/docker.svg",
+    width: 80,
+    height: 80,
+    scale: 1,
+  },
 ];
 
 export const OtherSkills = [
@@ -295,11 +302,11 @@ export const OtherSkills = [
 
 export const ProjectData = [
   {
-    name: "ShopBuddy",
-    src: "/shopbuddySS.png",
+    name: "MedicMate",
+    src: "/medicmateSS.png",
     description:
-      "A robust full-stack E-Commerce web application, featuring essential features for an efficient online shopping experience.",
-    github: "https://github.com/yashharne/ShopBuddy",
+      "An innovative healthcare solution leveraging GenAI to provide medical assistance in underserved regions with limited access to healthcare facilities.",
+    github: "https://github.com/yashharne/medicmate",
   },
   {
     name: "OptiRoute",
@@ -309,10 +316,17 @@ export const ProjectData = [
     github: "https://github.com/yashharne/OptiRoute",
   },
   {
+    name: "ShopBuddy",
+    src: "/shopbuddySS.png",
+    description:
+      "A robust full-stack E-Commerce web application, featuring essential features for an efficient online shopping experience.",
+    github: "https://github.com/yashharne/ShopBuddy",
+  },
+  {
     name: "iConclave Website",
     src: "/iconclaveSS.png",
     description:
-      "This is the official website for the annual techno-cultural fest of IIIT Pune, iConclave 23.",
+      "This is the official website for the 2023 edition of the annual techno-cultural fest of IIIT Pune, iConclave 23.",
     link: "https://iconclave23.netlify.app/",
     github: "https://github.com/yashharne/iConclave23",
   },
@@ -320,7 +334,7 @@ export const ProjectData = [
     name: "WeatherSnap",
     src: "/weathersnapSS.png",
     description:
-      "A real-time weather forecasting web application powered by the OpenWeatherMap API. It provides users with current weather data and forecasts.",
+      "A real-time weather forecasting web application delivering current weather data and forecasts to users.",
     link: "https://appweathersnap.netlify.app/",
     github: "https://github.com/yashharne/WeatherSnap",
   },
