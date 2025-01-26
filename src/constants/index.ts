@@ -339,3 +339,53 @@ export const ProjectData = [
     github: "https://github.com/yashharne/WeatherSnap",
   },
 ];
+
+export const ExperienceData = [
+  {
+    name: "Nomura Holdings",
+    src: "/nomura_logo.png",
+    position: "Global Markets IT Intern",
+    duration: "June 2024 - Jan 2025",
+    location: "Mumbai, Maharashtra, India",
+    description: [
+      "Developed Python utilities for regression testing, automating workflows, error handling, and report generation.",
+      "Enhanced the UFT-based testing framework by debugging existing modules and automating additional manual test modules.",
+      "Executed Functional and UI testing runs for the main trading application during releases.",
+      "Collaborated with QA and development teams to integrate new testing requirements.",
+    ],
+    techstack: [
+      "Python",
+      "UFT",
+      "VBScript",
+      "SQL",
+      "Confluence",
+      "PyCharm",
+      "Jenkins",
+      "GitLab",
+      "VS Code",
+      "SSMS",
+    ],
+  },
+  {
+    name: "IConclave",
+    src: "/iconclave_logo.png",
+    position: "Head of Web Development",
+    duration: "Sept 2023 - Oct 2023",
+    location: "Pune, Maharashtra, India",
+    description: [
+      "Led a team in developing the entire iConclave website, including event pages, registration pages, and respective club pages.",
+      "Engineered a robust user registration system integrated with Firebase, streamlining registration and ticket generation.",
+      "Implemented SEO strategies to improve website visibility and led the deployment process, ensuring a successful launch.",
+    ],
+    techstack: [
+      "React",
+      "three.js",
+      "Firebase",
+      "Figma",
+      "Netlify",
+      "TailwindCSS",
+      "Material UI",
+      "Vite",
+    ],
+  },
+];

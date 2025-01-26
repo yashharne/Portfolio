@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="mt-[15px] text-[15px] text-center">
-                &copy; {new Date().getFullYear()} Yash Harne. All rights reserved.
+                &copy; 2024-{new Date().getFullYear()} Yash Harne. All rights reserved.
             </div>
         </div >
     )
