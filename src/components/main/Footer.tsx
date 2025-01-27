@@ -4,14 +4,14 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div className="w-full h-full flex flex-col bg-transparent text-gray-200 shadow-lg p-[15px] mt-[40px] sm:mt-0 z-50">
-            <div className="flex sm:flex-col justify-around items-center gap-4">
-                <div className="hidden sm:flex">
+        <div className="w-full relative h-full flex flex-col bg-transparent text-gray-200 shadow-lg p-[15px] mt-[40px] sm:mt-0 z-50">
+            <div className="flex flex-col justify-around items-center gap-4">
+                <div className="flex">
                     <a
                         href={`mailto:${Email}`}
                         className="Welcome-box py-[10px] px-[10px] sm:py-[12px] sm:px-[12px] border border-[#7042f88b] opacity-[0.9]  z-50"
                     >
-                        <h1 className="Welcome-text text-[14px] sm:text-[16px]">Contact Me</h1>
+                        <h1 className="Welcome-text text-[10px] sm:text-[14px] md:text-[16px]">Contact Me</h1>
                     </a>
                 </div>
 
@@ -30,22 +30,14 @@ const Footer = () => {
                                     title={social.name}
                                     width={24}
                                     height={24}
+                                    className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:h-8 lg:w-8"
                                 />
                             </a>
                         ))
                     }
                 </div>
-
-                <div className="flex sm:hidden">
-                    <a
-                        href={`mailto:${Email}`}
-                        className="Welcome-box py-[10px] px-[10px] sm:py-[12px] sm:px-[12px] border border-[#7042f88b] opacity-[0.9]  z-50"
-                    >
-                        <h1 className="Welcome-text text-[14px] sm:text-[16px]">Contact Me</h1>
-                    </a>
-                </div>
             </div>
-            <div className="mt-[15px] text-[15px] text-center">
+            <div className="mt-[15px] text-[10px] sm:text-[14px] md:text-[16px] text-center z-10">
                 &copy; 2024-{new Date().getFullYear()} Yash Harne. All rights reserved.
             </div>
         </div >

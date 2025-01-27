@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='w-full h-[65px] fixed top-0 shawdow-lg shawdow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-6 sm:px-10'>
+        <div className='w-full h-[65px] fixed top-0 shawdow-lg shawdow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-2 sm:px-10'>
             <div className='w-full h-full flex flex-row items-center justify-between gap-4 sm:gap-12 lg:gap-0 m-auto sm:px-[10px]'>
                 <a href='#about-me' className='h-auto w-auto flex flex-row items-center z-100'>
                     <Image
@@ -20,18 +20,18 @@ const Navbar = () => {
                 </a>
 
                 <div className='w-[600px] h-full flex flex-row items-center justify-between'>
-                    <div className='flex text-sm sm:text-base neonBreathing items-center w-full h-auto justify-between border-[#7042f861] bg-[#0300145e] px-[20px] py-[10px] rounded-full text-gray-200'>
+                    <div className='flex text-xs sm:text-base neonBreathing items-center w-full h-auto justify-between border-[#7042f861] bg-[#0300145e] px-[20px] py-[10px] rounded-full text-gray-200'>
                         <a href='#about-me' className='cursor-pointer'>
                             About Me
-                        </a>
-                        <a href='#skills' className='cursor-pointer'>
-                            Skills
                         </a>
                         <a href='#experience' className='cursor-pointer'>
                             Experience
                         </a>
                         <a href='#projects' className='cursor-pointer'>
                             Projects
+                        </a>
+                        <a href='#skills' className='cursor-pointer'>
+                            Skills
                         </a>
                     </div>
                 </div>

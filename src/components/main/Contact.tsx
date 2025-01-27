@@ -19,7 +19,7 @@ const Contact = () => {
                     className='Welcome-box py-[12px] px-[12px] border border-[#7042f88b] opacity-[0.9]'
                 >
                     <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
-                    <h1 className='Welcome-text text-[16px]'>CONTACT</h1>
+                    <h1 className='Welcome-text text-[10px] sm:text-[14px] md:text-[16px]'>CONTACT</h1>
                 </motion.div>
 
                 <motion.div
