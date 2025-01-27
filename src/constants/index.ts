@@ -300,6 +300,58 @@ export const OtherSkills = [
   },
 ];
 
+export const nomuraSkills = [
+  {
+    name: "UFT",
+    src: "/uft.jpg",
+    width: 80,
+    height: 80,
+    scale: 0.9,
+  },
+  {
+    name: "VBScript",
+    src: "/vbscript.png",
+    width: 80,
+    height: 80,
+    scale: 1,
+  },
+  {
+    name: "PyCharm",
+    src: "/pycharm.png",
+    width: 80,
+    height: 80,
+    scale: 1,
+  },
+  {
+    name: "SQL Server Management Studio",
+    src: "/ssms.png",
+    width: 80,
+    height: 80,
+    scale: 0.9,
+  },
+  {
+    name: "GitLab",
+    src: "/gitlab.png",
+    width: 80,
+    height: 80,
+    scale: 1,
+  },
+  {
+    name: "Jenkins",
+    src: "/jenkins.png",
+    width: 80,
+    height: 80,
+    scale: 1.25,
+  },
+  {
+    name: "Confluence",
+    src: "/confluence.png",
+    width: 80,
+    height: 80,
+    scale: 0.9,
+  },
+];
+
 export const ProjectData = [
   {
     name: "MedicMate",
@@ -347,6 +399,7 @@ export const ExperienceData = [
     position: "Global Markets IT Intern",
     duration: "June 2024 - Jan 2025",
     location: "Mumbai, Maharashtra, India",
+    link: "https://www.linkedin.com/company/nomura",
     description: [
       "Developed Python utilities for regression testing, automating workflows, error handling, and report generation.",
       "Enhanced the UFT-based testing framework by debugging existing modules and automating additional manual test modules.",
@@ -373,7 +426,7 @@ export const ExperienceData = [
     duration: "Sept 2023 - Oct 2023",
     location: "Pune, Maharashtra, India",
     description: [
-      "Led a team in developing the entire iConclave website, including event pages, registration pages, and respective club pages.",
+      "Led a team in developing the entire iConclave'23 website, including event pages, registration pages, and respective club pages.",
       "Engineered a robust user registration system integrated with Firebase, streamlining registration and ticket generation.",
       "Implemented SEO strategies to improve website visibility and led the deployment process, ensuring a successful launch.",
     ],
