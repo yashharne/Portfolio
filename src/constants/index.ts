@@ -394,7 +394,7 @@ export const ProjectData = [
 
 export const ExperienceData = [
   {
-    name: "Nomura Holdings",
+    name: "Nomura",
     src: "/nomura_logo.png",
     position: "Global Markets IT Intern",
     duration: "June 2024 - Jan 2025",

@@ -1,6 +1,7 @@
 import { Email, Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import VisitorTracker from "./Tracker";
 
 const Footer = () => {
     return (
@@ -40,6 +41,7 @@ const Footer = () => {
             <div className="mt-[15px] text-[10px] sm:text-[14px] md:text-[16px] text-center z-10">
                 &copy; 2024-{new Date().getFullYear()} Yash Harne. All rights reserved.
             </div>
+            <VisitorTracker />
         </div >
     )
 }
