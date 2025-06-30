@@ -16,6 +16,12 @@ export async function GET(req: Request) {
     }
   );
 
+  console.log("SUPABASE_URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
+  console.log(
+    "SUPABASE_ANON_KEY:",
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.slice(0, 8)
+  );
+
   const ip =
     req.headers.get("x-forwarded-for") ||
     req.headers.get("x-real-ip") ||
