@@ -29,16 +29,16 @@ export async function GET(req: Request) {
 
   let geo = { country: "Unknown", city: "Unknown" };
 
-  try {
-    const geoRes = await fetch(`https://ipapi.co/${ip}/json/`);
-    const geoData = await geoRes.json();
-    geo = {
-      country: geoData.country_name || "Unknown",
-      city: geoData.city || "Unknown",
-    };
-  } catch (e) {
-    console.error("Geo lookup failed:", e);
-  }
+  // try {
+  //   const geoRes = await fetch(`https://ipapi.co/${ip}/json/`);
+  //   const geoData = await geoRes.json();
+  //   geo = {
+  //     country: geoData.country_name || "Unknown",
+  //     city: geoData.city || "Unknown",
+  //   };
+  // } catch (e) {
+  //   console.error("Geo lookup failed:", e);
+  // }
 
   // ✅ Find the most recent visit for this IP
   const { data: lastVisit } = await supabase
