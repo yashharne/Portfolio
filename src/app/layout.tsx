@@ -5,6 +5,7 @@ import StarsCanvas from '@/components/main/Background'
 import Navbar from '@/components/main/Navbar'
 import Footer from '@/components/main/Footer'
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Analytics />
+        <SpeedInsights />
         <Footer />
       </body>
     </html>
